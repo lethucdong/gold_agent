@@ -1,7 +1,7 @@
 export const config = {
   openai: {
     apiKey: process.env.OPENAI_API_KEY ?? "",
-    model: "openrouter/meta-llama/llama-3.1-8b-instruct:free",
+    model: "openrouter/nvidia/nemotron-3-nano-30b-a3b:free",
     embeddingModel: "openai/text-embedding-3-small",
   },
   openrouter: {
