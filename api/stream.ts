@@ -1,4 +1,5 @@
 import "dotenv/config";
+import "@ai-sdk/anthropic"; // force Vercel bundler to include Anthropic provider
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { z } from "zod";
 import { initDatabase } from "../src/infrastructure/database.js";
