@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "functions": {
+    "api/stream.ts": {
+      "maxDuration": 300,
+      "memory": 1024
+    },
+    "api/chat.ts": {
+      "maxDuration": 300,
+      "memory": 1024
+    },
+    "api/health.ts": {
+      "maxDuration": 10
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" }
+      ]
+    }
+  ]
+}

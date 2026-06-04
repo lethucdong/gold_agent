@@ -13,18 +13,24 @@
     "volt": "volt"
   },
   "dependencies": {
+    "@hono/swagger-ui": "^0.6.1",
+    "@hono/zod-openapi": "^1.4.0",
+    "@types/pg": "^8.20.0",
+    "@voltagent/cli": "^0.1.10",
     "@voltagent/core": "^2.0.0",
     "@voltagent/libsql": "^2.0.0",
-    "ai": "^6.0.0",
-    "@voltagent/cli": "^0.1.10",
     "@voltagent/logger": "^2.0.0",
+    "@voltagent/server-hono": "^2.0.0",
+    "ai": "^6.0.0",
+    "axios": "^1.16.1",
     "dotenv": "^16.4.7",
-    "zod": "^3.25.76",
-    "@voltagent/server-hono": "^2.0.0"
+    "pg": "^8.21.0",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/node": "^22.10.5",
+    "@vercel/node": "^5.8.11",
     "tsdown": "^0.15.2",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
