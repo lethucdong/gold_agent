@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "buildCommand": "echo 'API only project - no static build'",
+  "outputDirectory": ".",
+  "installCommand": "yarn install",
   "functions": {
     "api/stream.ts": {
       "maxDuration": 300,
