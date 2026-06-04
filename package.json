@@ -13,6 +13,7 @@
     "volt": "volt"
   },
   "dependencies": {
+    "@ai-sdk/openai-compatible": "^2.0.48",
     "@hono/swagger-ui": "^0.6.1",
     "@hono/zod-openapi": "^1.4.0",
     "@types/pg": "^8.20.0",
